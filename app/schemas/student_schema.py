@@ -7,7 +7,7 @@ from datetime import datetime
 class Register(BaseModel):
     name:str = Field(min_length=2 , max_length=25)
     email: EmailStr
-    hashed_password:str = Field(min_length=6 , max_length=8)
+    password:str = Field(min_length=6 , max_length=8)
 
 class ResponseRegister(BaseModel):
     id:int

@@ -19,6 +19,7 @@ class UploadedFiles(Base):
     __tablename__= "uploaded_files"
     id =Column(Integer , primary_key=True)
     student_id=Column(Integer , ForeignKey("students.id") , nullable=False)
+    name=Column(String , nullable=False)
     content_type = Column(String, nullable=False)
     file_path=Column(String , nullable=False)
     filename=Column(String , nullable=False)
