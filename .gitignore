@@ -1,0 +1,5 @@
+.env 
+__pycache__
+student.db
+create_admin.py
+create_admin
