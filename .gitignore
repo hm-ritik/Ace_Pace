@@ -1,5 +1,9 @@
-.env 
-__pycache__
-student.db
+.env
 create_admin.py
-create_admin
+__pycache__/
+*.pyc
+venv/
+student.db
+app/uploads/
+.vscode
+tempCodeRunnerFile.py
